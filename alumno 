@@ -1,3 +1,5 @@
+package com.example.prueba;
+
 public class Alumno extends Persona {
     private String matricula;
     private String carrera;
