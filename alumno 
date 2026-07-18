@@ -14,5 +14,5 @@ public class Alumno extends Persona {
     public void setMatricula(String matricula) { this.matricula = matricula; }
     
     public String getCarrera() { return carrera; }
-    public void setCarrera(String carrera) { this.carrera = carrera; }
+    public void setCarrera(String carrera) { this.carrera = carrera;}
 }
