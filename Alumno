@@ -1,0 +1,14 @@
+package com.example.prueba;
+
+public class Alumno extends Persona {
+    private String carrera;
+
+    public Alumno(String nombre, int edad, String sexo, String carrera){
+        super(nombre, edad, sexo);
+        this.carrera = carrera;
+    }
+
+    public String getCarrera() { return carrera; }
+
+    public void setCarrera(String carrera) { this.carrera = carrera; }
+}
